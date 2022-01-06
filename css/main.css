@@ -283,6 +283,10 @@
     footer .redes-sociales .instagram:hover {
         background: #e1306c;
     }
+    
+    #trucazo {
+        opacity: 0;
+    }
     /*---- ------ MEDIA QUERIES ----- ------*/
     
     @media screen and (max-width: 800px) {
@@ -295,9 +299,6 @@
     }
     
     @media screen and (max-width: 500px) {
-        /*header .contenedor {
-            max-height: 500px;
-        }*/
         header .contenedor-texto .texto .nombre {
             font-size: 35px;
         }
